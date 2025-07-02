@@ -246,7 +246,7 @@ config INCLUDE_KSU
         bool "Ship KernelSU with kernel"
 
 if INCLUDE_KSU
-source "drivers/kernelsu/Kconfig"
+source "drivers/ksu/Kconfig"
 endif
 
 endmenu
